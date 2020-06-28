@@ -1,0 +1,62 @@
+{
+    "name": "eslint-config-airbnb-babel",
+    "version": "0.0.0",
+    "description": "Babel support for Airbnb's ESLint config",
+    "keywords": [
+        "airbnb",
+        "config",
+        "es2015",
+        "es2016",
+        "es2017",
+        "es2018",
+        "eslint",
+        "eslintconfig",
+        "javascript",
+        "styleguide",
+        "babel"
+    ],
+    "main": "index.js",
+    "scripts": {
+        "test": "eslint index.js --fix"
+    },
+    "author": "David J. Bradshaw",
+    "homepage": "https://github.com/davidjbradshaw/eslint-config-airbnb-babel",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/davidjbradshaw/eslint-config-airbnb-babel.git"
+    },
+    "dependencies": {
+        "eslint-config-airbnb-base": "^14.2.0"
+    },
+    "devDependencies": {
+        "eslint": "^7",
+        "eslint-config-auto": "^0.4.0",
+        "eslint-plugin-array-func": "^3.1.6",
+        "eslint-plugin-babel": "^5.3.0",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^6.0.2",
+        "eslint-plugin-import": "2.20.2",
+        "eslint-plugin-json": "^2.1.1",
+        "eslint-plugin-markdown": "^1.0.2",
+        "eslint-plugin-no-constructor-bind": "^2.0.2",
+        "eslint-plugin-no-secrets": "^0.6.8",
+        "eslint-plugin-no-unsanitized": "^3.1.2",
+        "eslint-plugin-no-use-extend-native": "^0.5.0",
+        "eslint-plugin-optimize-regex": "^1.2.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-scanjs-rules": "^0.2.1",
+        "eslint-plugin-security": "^1.4.0",
+        "eslint-plugin-simple-import-sort": "^5.0.3",
+        "eslint-plugin-sonarjs": "^0.5.0",
+        "eslint-plugin-switch-case": "^1.1.2",
+        "eslint-plugin-unicorn": "^20.1.0"
+    },
+    "peerDependencies": {
+        "eslint": ">= 5",
+        "eslint-plugin-babel": ">= 5"
+    },
+    "engines": {
+        "node": ">=6"
+    },
+    "license": "MIT"
+}
