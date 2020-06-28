@@ -14,7 +14,7 @@ This configure must be placed after which ever version of the AirBnB rules you a
 
 ```json
 {
-  extends: ["airbnb", "airbnb-babel"]
+  "extends": ["airbnb", "airbnb-babel"]
 }
 ```
 
