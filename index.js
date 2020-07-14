@@ -8,9 +8,6 @@ module.exports = {
     'new-cap': 'off',
     'babel/new-cap': baseStyle.rules['new-cap'],
 
-    camelcase: 'off',
-    'babel/camelcase': baseStyle.rules.camelcase,
-
     'no-invalid-this': 'off',
     'babel/no-invalid-this': baseBestPractices.rules['no-invalid-this'],
 
