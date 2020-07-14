@@ -19,5 +19,5 @@ This configure must be placed after which ever version of the AirBnB rules you a
 ```
 
 ----
-&copy; David J. Bradshaw
+&copy; David J. Bradshaw 2020
 License: MIT
