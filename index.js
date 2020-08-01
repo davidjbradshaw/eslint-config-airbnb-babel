@@ -5,6 +5,12 @@ const baseStyle = require('eslint-config-airbnb-base/rules/style');
 module.exports = {
   plugins: ['babel'],
   rules: {
+    camelcase: 'off',
+    'babel/camelcase': [ // Deep clone to avoid object mutation wierdness
+      baseStyle.rules.camelcase[0],
+      { ...baseStyle.rules.camelcase[1] },
+    ],
+
     'new-cap': 'off',
     'babel/new-cap': baseStyle.rules['new-cap'],
 
