@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-airbnb-babel",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "Babel support for Airbnb's ESLint config",
     "keywords": [
         "airbnb",
