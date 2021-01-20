@@ -10,7 +10,7 @@ npm install eslint-config-airbnb-babel --save-dev
 ```
 
 ## Configure
-This configure must be placed after which ever version of the AirBnB rules you are using in your `.eslintrc` file:
+This configuration must be placed after which ever version of the AirBnB rules you are using in your `.eslintrc` file:
 
 ```json
 {
